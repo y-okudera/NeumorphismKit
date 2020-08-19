@@ -1,4 +1,10 @@
 # NeumorphismKit
+
+[![Version](https://img.shields.io/cocoapods/v/NeumorphismKit.svg?style=flat)](http://cocoapods.org/pods/NeumorphismKit)
+[![Carthage Compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/y-okudera/NeumorphismKit)
+[![License](https://img.shields.io/cocoapods/l/NeumorphismKit.svg?style=flat)](http://cocoapods.org/pods/NeumorphismKit)
+[![Platform](https://img.shields.io/cocoapods/p/NeumorphismKit.svg?style=flat)](http://cocoapods.org/pods/NeumorphismKit)
+
 NeumorphismKit is neumorphism framework for UIKit.
 
 ![](https://user-images.githubusercontent.com/25205138/90653820-9e6c3300-e27a-11ea-8cc7-70a58c30d35c.png) ![](https://user-images.githubusercontent.com/25205138/90653825-a1ffba00-e27a-11ea-9ccc-46b9ade19b16.png)
