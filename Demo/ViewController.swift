@@ -13,6 +13,7 @@ class ViewController: UIViewController {
 
     private var timer = Timer()
 
+    @IBOutlet weak var purpleProgressView: NeumorphismProgressView!
     @IBOutlet weak var greenProgressView: NeumorphismProgressView!
 
     override func viewDidLoad() {
@@ -27,6 +28,11 @@ class ViewController: UIViewController {
     }
 
     @objc private func didProgresse() {
+        self.purpleProgressView.decrementProgress(0.05)
+        if self.purpleProgressView.progress <= 0.0 {
+            self.purpleProgressView.setProgress(1.0)
+        }
+
         self.greenProgressView.incrementProgress(0.05)
         if self.greenProgressView.progress >= 1.0 {
             self.greenProgressView.setProgress(0.0)

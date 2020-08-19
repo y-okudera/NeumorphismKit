@@ -16,43 +16,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HVe-du-26t" customClass="NeumorphismButton" customModule="NeumorphismKit">
-                                <rect key="frame" x="20" y="792" width="374" height="30"/>
-                                <state key="normal" title="Button">
-                                    <color key="titleColor" red="0.62745098040000002" green="0.27450980390000002" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="color" keyPath="baseColor">
-                                        <color key="value" red="0.80392156862745101" green="0.90196078431372551" blue="0.94117647058823528" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Concave_Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xLx-J9-8o8" customClass="NeumorphismLabel" customModule="NeumorphismKit">
-                                <rect key="frame" x="20" y="727" width="374" height="35"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="35" id="d5h-CD-Ldv"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.62745098040000002" green="0.27450980390000002" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="color" keyPath="baseColor">
-                                        <color key="value" red="0.80392156862745101" green="0.90196078431372551" blue="0.94117647058823528" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                    </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isConvex" value="NO"/>
-                                </userDefinedRuntimeAttributes>
-                            </label>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Input your Email..." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="9NK-D4-RbG" customClass="NeumorphismTextField" customModule="NeumorphismKit">
-                                <rect key="frame" x="20" y="210" width="374" height="34"/>
-                                <color key="textColor" red="0.62745098040000002" green="0.27450980390000002" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="color" keyPath="baseColor">
-                                        <color key="value" red="0.80392156862745101" green="0.90196078431372551" blue="0.94117647058823528" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
-                            </textField>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="b52-eJ-ynP" customClass="NeumorphismTextView" customModule="NeumorphismKit">
                                 <rect key="frame" x="20" y="52" width="374" height="128"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
@@ -70,7 +33,18 @@
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="isConvex" value="NO"/>
                                 </userDefinedRuntimeAttributes>
                             </textView>
-                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="3BH-ph-SdO" customClass="NeumorphismProgressView" customModule="NeumorphismKit">
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Input your Email..." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="9NK-D4-RbG" customClass="NeumorphismTextField" customModule="NeumorphismKit">
+                                <rect key="frame" x="20" y="210" width="374" height="34"/>
+                                <color key="textColor" red="0.62745098040000002" green="0.27450980390000002" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="baseColor">
+                                        <color key="value" red="0.80392156862745101" green="0.90196078431372551" blue="0.94117647058823528" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </textField>
+                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="1" translatesAutoresizingMaskIntoConstraints="NO" id="3BH-ph-SdO" customClass="NeumorphismProgressView" customModule="NeumorphismKit">
                                 <rect key="frame" x="20" y="274" width="374" height="20"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="20" id="wg0-qe-83a"/>
@@ -84,7 +58,7 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </progressView>
-                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="znw-y5-EbS" customClass="NeumorphismProgressView" customModule="NeumorphismKit">
+                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="znw-y5-EbS" customClass="NeumorphismProgressView" customModule="NeumorphismKit">
                                 <rect key="frame" x="20" y="324" width="374" height="20"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="20" id="8V0-WL-7zi"/>
@@ -113,6 +87,32 @@
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="isConvex" value="YES"/>
                                 </userDefinedRuntimeAttributes>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Concave_Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xLx-J9-8o8" customClass="NeumorphismLabel" customModule="NeumorphismKit">
+                                <rect key="frame" x="20" y="727" width="374" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="d5h-CD-Ldv"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.62745098040000002" green="0.27450980390000002" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="baseColor">
+                                        <color key="value" red="0.80392156862745101" green="0.90196078431372551" blue="0.94117647058823528" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isConvex" value="NO"/>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HVe-du-26t" customClass="NeumorphismButton" customModule="NeumorphismKit">
+                                <rect key="frame" x="20" y="792" width="374" height="30"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" red="0.62745098040000002" green="0.27450980390000002" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="baseColor">
+                                        <color key="value" red="0.80392156862745101" green="0.90196078431372551" blue="0.94117647058823528" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.80392156862745101" green="0.90196078431372551" blue="0.94117647058823528" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -142,6 +142,7 @@
                     </view>
                     <connections>
                         <outlet property="greenProgressView" destination="znw-y5-EbS" id="u7y-68-76N"/>
+                        <outlet property="purpleProgressView" destination="3BH-ph-SdO" id="cxz-KD-rBe"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
