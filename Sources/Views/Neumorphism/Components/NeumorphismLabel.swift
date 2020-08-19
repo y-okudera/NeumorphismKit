@@ -17,7 +17,7 @@ public class NeumorphismLabel: UILabel {
     private var _neumorphismType: NeumorphismType = .convex
 
     @IBInspectable
-    var baseColor: UIColor = NeumorphismAppearance.shared.baseColor {
+    public var baseColor: UIColor = NeumorphismAppearance.shared.baseColor {
         willSet {
             _baseColor = newValue
             self.setupNeumorphism()
@@ -25,7 +25,7 @@ public class NeumorphismLabel: UILabel {
     }
 
     @IBInspectable
-    var cornerRadius: CGFloat = 8.0 {
+    public var cornerRadius: CGFloat = 8.0 {
         willSet {
             _cornerRadius = newValue
             self.setupNeumorphism()
@@ -33,7 +33,7 @@ public class NeumorphismLabel: UILabel {
     }
 
     @IBInspectable
-    var isConvex: Bool = true {
+    public var isConvex: Bool = true {
         willSet {
             _neumorphismType = newValue ? .convex : .concave
             self.setupNeumorphism()

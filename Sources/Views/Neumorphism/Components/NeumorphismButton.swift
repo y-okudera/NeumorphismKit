@@ -21,7 +21,7 @@ public class NeumorphismButton: UIButton {
     private var _cornerRadius: CGFloat = 16.0
 
     @IBInspectable
-    var baseColor: UIColor = NeumorphismAppearance.shared.baseColor {
+    public var baseColor: UIColor = NeumorphismAppearance.shared.baseColor {
         willSet {
             _baseColor = newValue
             self.setupNeumorphism()
@@ -29,7 +29,7 @@ public class NeumorphismButton: UIButton {
     }
 
     @IBInspectable
-    var cornerRadius: CGFloat = 16.0 {
+    public var cornerRadius: CGFloat = 16.0 {
         willSet {
             _cornerRadius = newValue
             self.setupNeumorphism()

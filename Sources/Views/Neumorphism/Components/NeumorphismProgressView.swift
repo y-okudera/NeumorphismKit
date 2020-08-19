@@ -19,7 +19,7 @@ public class NeumorphismProgressView: UIProgressView {
     private var updateProgress: Bool = false
 
     @IBInspectable
-    var baseColor: UIColor = NeumorphismAppearance.shared.baseColor {
+    public var baseColor: UIColor = NeumorphismAppearance.shared.baseColor {
         willSet {
             _baseColor = newValue
             self.setupNeumorphism()
@@ -27,7 +27,7 @@ public class NeumorphismProgressView: UIProgressView {
     }
 
     @IBInspectable
-    var cornerRadius: CGFloat = .zero {
+    public var cornerRadius: CGFloat = .zero {
         willSet {
             _cornerRadius = newValue
             self.setupNeumorphism()
@@ -35,7 +35,7 @@ public class NeumorphismProgressView: UIProgressView {
     }
 
     @IBInspectable
-    var isConvex: Bool = false {
+    public var isConvex: Bool = false {
         willSet {
             _neumorphismType = newValue ? .convex : .concave
             self.setupNeumorphism()
@@ -43,7 +43,7 @@ public class NeumorphismProgressView: UIProgressView {
     }
 
     @IBInspectable
-    var progressColor: UIColor = .systemGreen {
+    public var progressColor: UIColor = .systemGreen {
         willSet {
             _progressColor = newValue
             self.setupNeumorphism()

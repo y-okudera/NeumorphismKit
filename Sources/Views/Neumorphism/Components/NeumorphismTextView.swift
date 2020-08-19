@@ -16,7 +16,7 @@ public class NeumorphismTextView: UITextView {
     private var _neumorphismType: NeumorphismType = .concave
 
     @IBInspectable
-    var baseColor: UIColor = NeumorphismAppearance.shared.baseColor {
+    public var baseColor: UIColor = NeumorphismAppearance.shared.baseColor {
         willSet {
             _baseColor = newValue
             self.setupNeumorphism()
@@ -24,7 +24,7 @@ public class NeumorphismTextView: UITextView {
     }
 
     @IBInspectable
-    var cornerRadius: CGFloat = 16.0 {
+    public var cornerRadius: CGFloat = 16.0 {
         willSet {
             _cornerRadius = newValue
             self.setupNeumorphism()
@@ -32,7 +32,7 @@ public class NeumorphismTextView: UITextView {
     }
 
     @IBInspectable
-    var isConvex: Bool = false {
+    public var isConvex: Bool = false {
         willSet {
             _neumorphismType = newValue ? .convex : .concave
             self.setupNeumorphism()
