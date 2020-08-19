@@ -27,7 +27,7 @@ platform :ios, '12.0'
 use_frameworks!
 
 target '<TargetName>' do
-    pod 'NeumorphismKit', '~> 0.1'
+    pod 'NeumorphismKit', '~> 0.2'
 end
 ```
 
@@ -42,7 +42,7 @@ $ pod install
 To integrate NeumorphismKit into your Xcode project using Carthage, specify it in your `Cartfile`:
 
 ```
-github "y-okudera/NeumorphismKit" ~> 0.1
+github "y-okudera/NeumorphismKit" ~> 0.2
 ```
 
 Run `carthage update` to build the framework and drag the built `NeumorphismKit.framework` into your Xcode project.
