@@ -27,7 +27,7 @@ platform :ios, '12.0'
 use_frameworks!
 
 target '<TargetName>' do
-    pod 'NeumorphismKit', '~> 0.2'
+    pod 'NeumorphismKit', '~> 1.0'
 end
 ```
 
@@ -42,7 +42,7 @@ $ pod install
 To integrate NeumorphismKit into your Xcode project using Carthage, specify it in your `Cartfile`:
 
 ```
-github "y-okudera/NeumorphismKit" ~> 0.2
+github "y-okudera/NeumorphismKit" ~> 1.0
 ```
 
 Run `carthage update` to build the framework and drag the built `NeumorphismKit.framework` into your Xcode project.
@@ -74,6 +74,64 @@ neumorphismButton.setTitleColor(titleColor, for: .normal)
 
 self.view.addSubview(neumorphismButton)
 ```
+
+
+
+#### NeumorphismTabBarController
+
+<img width="300" alt="TabBar" src="https://user-images.githubusercontent.com/25205138/96018081-c8f6f880-0e85-11eb-8689-4be3e16be038.png">
+
+
+
+When using NeumorphismTabBarController, implement the inherited class.
+
+```
+import NeumorphismKit
+import UIKit
+
+class YourTabBarController: NeumorphismTabBarController {
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        self.nskDelegate = self
+    }
+
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+
+        // If it is an empty string, the title will be hidden.
+        let btn1 = NeumorphismTabBarItem(title: "", icon: UIImage(named: "your_tab_img1")!)
+        let btn2 = NeumorphismTabBarItem(title: "", icon: UIImage(named: "your_tab_img2")!)
+        let btn3 = NeumorphismTabBarItem(title: "", icon: UIImage(named: "your_tab_img3")!)
+        let btn4 = NeumorphismTabBarItem(title: "Timeline", icon: UIImage(named: "your_tab_img4")!)
+        let btn5 = NeumorphismTabBarItem(title: "Users", icon: UIImage(named: "your_tab_img5")!)
+
+        // Set tuples for viewController and NeumorphismTabBarItem.
+        self.setup(viewControllers: [
+            (viewController: MainViewController.instantiate(), tabBarItem: btn1),
+            (viewController: OtherViewController.instantiate(text: "View1"), tabBarItem: btn2),
+            (viewController: OtherViewController.instantiate(text: "View2"), tabBarItem: btn3),
+            (viewController: OtherViewController.instantiate(text: "View3"), tabBarItem: btn4),
+            (viewController: OtherViewController.instantiate(text: "View4"), tabBarItem: btn5),
+        ])
+    }
+}
+
+extension YourTabBarController: NeumorphismTabBarControllerDelegate {
+
+    // Delegate when switching tabs.
+    func finishedSwitchingTab(fromIndex: Int, toIndex: Int) {
+        print("fromIndex: \(fromIndex) toIndex: \(toIndex)")
+    }
+}
+
+```
+
+
+
+Then set YourTabBarController on the storyboard.
+
+
 
 Other components can be used as well.
 See [Demo project](https://github.com/y-okudera/NeumorphismKit/blob/master/Demo).
