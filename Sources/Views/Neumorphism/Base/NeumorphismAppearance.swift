@@ -8,6 +8,19 @@
 
 import UIKit
 
+public final class NeumorphismTabBarItemAppearance {
+
+    /// Title and icon color when unselected
+    public var defaultTint: UIColor = .lightGray
+
+    /// Title and icon color when selected
+    public var selectedTint: UIColor = .blue
+
+    public var titleFont: UIFont = .systemFont(ofSize: 11)
+
+    public var titleMinimumScaleFactor: CGFloat = 0.75
+}
+
 public final class NeumorphismAppearance {
 
     private init() {}
@@ -15,4 +28,5 @@ public final class NeumorphismAppearance {
     public static let shared = NeumorphismAppearance()
 
     public var baseColor: UIColor = .white
+    public var tabBarItem: NeumorphismTabBarItemAppearance = .init()
 }

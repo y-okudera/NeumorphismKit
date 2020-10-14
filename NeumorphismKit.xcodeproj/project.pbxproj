@@ -7,16 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FC316EDF2536AEA900CF0809 /* NeumorphismTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC316EDE2536AEA900CF0809 /* NeumorphismTabBar.swift */; };
+		FC6FBB0F253753360083124A /* TabBarController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC6FBB0E253753360083124A /* TabBarController.storyboard */; };
+		FC6FBB12253753F90083124A /* OtherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6FBB11253753F90083124A /* OtherViewController.swift */; };
+		FC6FBB15253754090083124A /* OtherViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC6FBB14253754090083124A /* OtherViewController.storyboard */; };
+		FC74BE472536027800267C84 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC74BE462536027800267C84 /* TabBarController.swift */; };
 		FC8159CE24EC2DB6001E6F9A /* NeumorphismTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8159CD24EC2DB6001E6F9A /* NeumorphismTextField.swift */; };
 		FC8159D024EC2E6D001E6F9A /* NeumorphismTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8159CF24EC2E6D001E6F9A /* NeumorphismTextView.swift */; };
 		FC8159D224EC2EFE001E6F9A /* NeumorphismProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8159D124EC2EFE001E6F9A /* NeumorphismProgressView.swift */; };
 		FC8159D424EC3B00001E6F9A /* Array+.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8159D324EC3B00001E6F9A /* Array+.swift */; };
+		FC817C682528E42D00DDD6AF /* NeumorphismTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC817C672528E42D00DDD6AF /* NeumorphismTabBarController.swift */; };
+		FCACE8292534A28A00E434FF /* NeumorphismTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCACE8282534A28A00E434FF /* NeumorphismTabView.swift */; };
+		FCACE82B2534A55300E434FF /* NeumorphismTabBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCACE82A2534A55300E434FF /* NeumorphismTabBarItem.swift */; };
 		FCC05EA624EC1D2400D3B65B /* NeumorphismKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCC05E9C24EC1D2400D3B65B /* NeumorphismKit.framework */; };
 		FCC05EAB24EC1D2400D3B65B /* NeumorphismKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC05EAA24EC1D2400D3B65B /* NeumorphismKitTests.swift */; };
 		FCC05EAD24EC1D2400D3B65B /* NeumorphismKit.h in Headers */ = {isa = PBXBuildFile; fileRef = FCC05E9F24EC1D2400D3B65B /* NeumorphismKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FCC05EBD24EC1DA900D3B65B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC05EBC24EC1DA900D3B65B /* AppDelegate.swift */; };
-		FCC05EC124EC1DA900D3B65B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC05EC024EC1DA900D3B65B /* ViewController.swift */; };
-		FCC05EC424EC1DA900D3B65B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCC05EC224EC1DA900D3B65B /* Main.storyboard */; };
+		FCC05EC124EC1DA900D3B65B /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC05EC024EC1DA900D3B65B /* MainViewController.swift */; };
+		FCC05EC424EC1DA900D3B65B /* MainViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCC05EC224EC1DA900D3B65B /* MainViewController.storyboard */; };
 		FCC05EC624EC1DAA00D3B65B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCC05EC524EC1DAA00D3B65B /* Assets.xcassets */; };
 		FCC05EC924EC1DAA00D3B65B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCC05EC724EC1DAA00D3B65B /* LaunchScreen.storyboard */; };
 		FCC05ECF24EC1DBB00D3B65B /* NeumorphismKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCC05E9C24EC1D2400D3B65B /* NeumorphismKit.framework */; settings = {ATTRIBUTES = (Required, ); }; };
@@ -64,10 +72,18 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		FC316EDE2536AEA900CF0809 /* NeumorphismTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeumorphismTabBar.swift; sourceTree = "<group>"; };
+		FC6FBB0E253753360083124A /* TabBarController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TabBarController.storyboard; sourceTree = "<group>"; };
+		FC6FBB11253753F90083124A /* OtherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherViewController.swift; sourceTree = "<group>"; };
+		FC6FBB14253754090083124A /* OtherViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = OtherViewController.storyboard; sourceTree = "<group>"; };
+		FC74BE462536027800267C84 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		FC8159CD24EC2DB6001E6F9A /* NeumorphismTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeumorphismTextField.swift; sourceTree = "<group>"; };
 		FC8159CF24EC2E6D001E6F9A /* NeumorphismTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeumorphismTextView.swift; sourceTree = "<group>"; };
 		FC8159D124EC2EFE001E6F9A /* NeumorphismProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeumorphismProgressView.swift; sourceTree = "<group>"; };
 		FC8159D324EC3B00001E6F9A /* Array+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+.swift"; sourceTree = "<group>"; };
+		FC817C672528E42D00DDD6AF /* NeumorphismTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeumorphismTabBarController.swift; sourceTree = "<group>"; };
+		FCACE8282534A28A00E434FF /* NeumorphismTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeumorphismTabView.swift; sourceTree = "<group>"; };
+		FCACE82A2534A55300E434FF /* NeumorphismTabBarItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeumorphismTabBarItem.swift; sourceTree = "<group>"; };
 		FCC05E9C24EC1D2400D3B65B /* NeumorphismKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NeumorphismKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCC05E9F24EC1D2400D3B65B /* NeumorphismKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NeumorphismKit.h; sourceTree = "<group>"; };
 		FCC05EA024EC1D2400D3B65B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -76,8 +92,8 @@
 		FCC05EAC24EC1D2400D3B65B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FCC05EBA24EC1DA900D3B65B /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCC05EBC24EC1DA900D3B65B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FCC05EC024EC1DA900D3B65B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		FCC05EC324EC1DA900D3B65B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FCC05EC024EC1DA900D3B65B /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		FCC05EC324EC1DA900D3B65B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainViewController.storyboard; sourceTree = "<group>"; };
 		FCC05EC524EC1DAA00D3B65B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FCC05EC824EC1DAA00D3B65B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FCC05ECA24EC1DAA00D3B65B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -119,6 +135,53 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FC6FBB0C253752F40083124A /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				FC6FBB13253753FE0083124A /* OtherViewController */,
+				FC6FBB10253753DE0083124A /* MainViewController */,
+				FC6FBB0D2537530A0083124A /* TabBarController */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		FC6FBB0D2537530A0083124A /* TabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				FC74BE462536027800267C84 /* TabBarController.swift */,
+				FC6FBB0E253753360083124A /* TabBarController.storyboard */,
+			);
+			path = TabBarController;
+			sourceTree = "<group>";
+		};
+		FC6FBB10253753DE0083124A /* MainViewController */ = {
+			isa = PBXGroup;
+			children = (
+				FCC05EC024EC1DA900D3B65B /* MainViewController.swift */,
+				FCC05EC224EC1DA900D3B65B /* MainViewController.storyboard */,
+			);
+			path = MainViewController;
+			sourceTree = "<group>";
+		};
+		FC6FBB13253753FE0083124A /* OtherViewController */ = {
+			isa = PBXGroup;
+			children = (
+				FC6FBB11253753F90083124A /* OtherViewController.swift */,
+				FC6FBB14253754090083124A /* OtherViewController.storyboard */,
+			);
+			path = OtherViewController;
+			sourceTree = "<group>";
+		};
+		FCACE8272534A1FA00E434FF /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				FCACE8282534A28A00E434FF /* NeumorphismTabView.swift */,
+				FCACE82A2534A55300E434FF /* NeumorphismTabBarItem.swift */,
+				FC316EDE2536AEA900CF0809 /* NeumorphismTabBar.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
 		FCC05E9224EC1D2400D3B65B = {
 			isa = PBXGroup;
 			children = (
@@ -163,9 +226,8 @@
 		FCC05EBB24EC1DA900D3B65B /* Demo */ = {
 			isa = PBXGroup;
 			children = (
+				FC6FBB0C253752F40083124A /* ViewControllers */,
 				FCC05EBC24EC1DA900D3B65B /* AppDelegate.swift */,
-				FCC05EC024EC1DA900D3B65B /* ViewController.swift */,
-				FCC05EC224EC1DA900D3B65B /* Main.storyboard */,
 				FCC05EC524EC1DAA00D3B65B /* Assets.xcassets */,
 				FCC05EC724EC1DAA00D3B65B /* LaunchScreen.storyboard */,
 				FCC05ECA24EC1DAA00D3B65B /* Info.plist */,
@@ -222,9 +284,11 @@
 		FCC05EE424EC217900D3B65B /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				FCACE8272534A1FA00E434FF /* TabBar */,
 				FCC05EE524EC21A300D3B65B /* NeumorphismButton.swift */,
 				FCC05EE724EC256900D3B65B /* NeumorphismLabel.swift */,
 				FC8159D124EC2EFE001E6F9A /* NeumorphismProgressView.swift */,
+				FC817C672528E42D00DDD6AF /* NeumorphismTabBarController.swift */,
 				FC8159CD24EC2DB6001E6F9A /* NeumorphismTextField.swift */,
 				FC8159CF24EC2E6D001E6F9A /* NeumorphismTextView.swift */,
 			);
@@ -361,9 +425,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC6FBB0F253753360083124A /* TabBarController.storyboard in Resources */,
+				FC6FBB15253754090083124A /* OtherViewController.storyboard in Resources */,
 				FCC05EC924EC1DAA00D3B65B /* LaunchScreen.storyboard in Resources */,
 				FCC05EC624EC1DAA00D3B65B /* Assets.xcassets in Resources */,
-				FCC05EC424EC1DA900D3B65B /* Main.storyboard in Resources */,
+				FCC05EC424EC1DA900D3B65B /* MainViewController.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -382,9 +448,13 @@
 				FC8159CE24EC2DB6001E6F9A /* NeumorphismTextField.swift in Sources */,
 				FCC05EEA24EC26C000D3B65B /* NeumorphismAppearance.swift in Sources */,
 				FCC05EE624EC21A300D3B65B /* NeumorphismButton.swift in Sources */,
+				FCACE82B2534A55300E434FF /* NeumorphismTabBarItem.swift in Sources */,
+				FCACE8292534A28A00E434FF /* NeumorphismTabView.swift in Sources */,
+				FC316EDF2536AEA900CF0809 /* NeumorphismTabBar.swift in Sources */,
 				FCC05ED624EC1F1400D3B65B /* UIColor+.swift in Sources */,
 				FC8159D024EC2E6D001E6F9A /* NeumorphismTextView.swift in Sources */,
 				FCC05EDF24EC1F9E00D3B65B /* NeumorphismExtension.swift in Sources */,
+				FC817C682528E42D00DDD6AF /* NeumorphismTabBarController.swift in Sources */,
 				FCC05EDD24EC1F7F00D3B65B /* NeumorphismShadowType.swift in Sources */,
 				FCC05EDB24EC1F5D00D3B65B /* NeumorphismType.swift in Sources */,
 			);
@@ -402,7 +472,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FCC05EC124EC1DA900D3B65B /* ViewController.swift in Sources */,
+				FC6FBB12253753F90083124A /* OtherViewController.swift in Sources */,
+				FCC05EC124EC1DA900D3B65B /* MainViewController.swift in Sources */,
+				FC74BE472536027800267C84 /* TabBarController.swift in Sources */,
 				FCC05EBD24EC1DA900D3B65B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -423,12 +495,12 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		FCC05EC224EC1DA900D3B65B /* Main.storyboard */ = {
+		FCC05EC224EC1DA900D3B65B /* MainViewController.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				FCC05EC324EC1DA900D3B65B /* Base */,
 			);
-			name = Main.storyboard;
+			name = MainViewController.storyboard;
 			sourceTree = "<group>";
 		};
 		FCC05EC724EC1DAA00D3B65B /* LaunchScreen.storyboard */ = {

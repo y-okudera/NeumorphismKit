@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  MainViewController.swift
 //  Demo
 //
 //  Created by okudera on 2020/08/18.
@@ -9,12 +9,21 @@
 import UIKit
 import NeumorphismKit
 
-class ViewController: UIViewController {
+class MainViewController: UIViewController {
 
     private var timer = Timer()
 
     @IBOutlet weak var purpleProgressView: NeumorphismProgressView!
     @IBOutlet weak var greenProgressView: NeumorphismProgressView!
+
+    class func instantiate() -> MainViewController {
+        let storyboard = UIStoryboard(name: "MainViewController", bundle: nil)
+        if #available(iOS 13.0, *) {
+            return storyboard.instantiateViewController(identifier: "MainViewController") as! MainViewController
+        } else {
+            return storyboard.instantiateViewController(withIdentifier: "MainViewController") as! MainViewController
+        }
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
