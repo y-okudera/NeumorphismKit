@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "Tab-MyPage.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

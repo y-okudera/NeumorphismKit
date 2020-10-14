@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = 'NeumorphismKit'
-  s.version = '0.2.0'
+  s.version = '1.0.0'
   s.license = { :type => 'MIT', :file => 'LICENSE' }
   s.summary = 'Neumorphism framework for UIKit.'
   s.homepage = 'https://github.com/y-okudera/NeumorphismKit'
