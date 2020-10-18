@@ -14,7 +14,13 @@ NeumorphismKit is neumorphism framework for UIKit.
 
 - iOS 12.0+
 - Swift 5.1+
-- Xcode 11+
+
+### Versions
+
+| NeumorphismKit version | Xcode version |
+| :--------------------: | :-----------: |
+|         1.0.0          |   Xcode 11+   |
+|         1.1.0          |   Xcode 12+   |
 
 ## Installation
 
