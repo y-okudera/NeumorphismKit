@@ -1,4 +1,4 @@
-# NeumorphismKit
+![IMG_0561](https://user-images.githubusercontent.com/25205138/97033141-d2771380-159d-11eb-8141-c275338955d1.PNG)
 
 [![Version](https://img.shields.io/cocoapods/v/NeumorphismKit.svg?style=flat)](http://cocoapods.org/pods/NeumorphismKit)
 [![Carthage Compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/y-okudera/NeumorphismKit)
